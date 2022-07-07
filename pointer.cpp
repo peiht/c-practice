@@ -10,6 +10,10 @@ void reference(){
 
     cout << "original val : " << i << endl;
     cout << "reference val : " << r << endl;
+
+    i = 2;
+
+    cout << "after modify :" << r << endl;
 }
 
 
